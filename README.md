@@ -1,5 +1,7 @@
 # XSPEC-error-finder
-A Python library utilizing a Monte Carlo method for determining the confidence interval of astrophysical model parameters
+A Python library utilizing a Monte Carlo method for determining the confidence interval of astrophysical model parameters.
+
+This is a plain text version of readme.pdf, for formating issues please refer to the pdf.
 
 #1 INTRODUCTION 
 This library implements a Monte Carlo method for finding the confidence interval for fitted parameters using
