@@ -89,10 +89,10 @@ GetTable(): Tables 6.2-4 8.1-2
 If you wish to implement your own data analysis, the result of a completed simulation is found by using
 ValidateModel.LoadData(ID).
 
-##-- 3.1 File structure --
+##3.1 File structure 
 It is crucial that the internal file structure remains intact.
 
--- 3.2 Creating settings files (.ds) --
+##3.2 Creating settings files (.ds)
 For each set of parameters that is to be tested a settings file (.ds) must be created. When testing a set of
 parameters, a series of files is created. These files specify the detector and data files used, type of simulation
 (type of Sim object) and the parameters to be tested.
@@ -119,7 +119,7 @@ bgo0.bak
 
 The functions I used to generate these files are given in settings.py.
 
--- 3.3 Running simulations --
+##3.3 Running simulations
 The easiest way of running a series of simulations is by using ValidateModel.RunSimSeries(...). This
 function has several optional arguments you should familiarize yourself with before running the simulations.
 
@@ -133,7 +133,7 @@ halfway through the series
 The basic principle of the method is; load a .ds file, run the simulations and save the result in a .do file (see
 below).
 
--- 3.4 Analysis of the result --
+##3.4 Analysis of the result
 The result of a simulation will be saved at saves/saveID/output.do. This result can found agian with
 ValidateModel.LoadData("saveID"). LoadData will return a list of SimOutput objects, one for each iter-
 ation of the Monte Carlo method. Examples of how this data can be used is given in DreamStats.py.
