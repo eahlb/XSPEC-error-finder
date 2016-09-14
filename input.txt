@@ -1,0 +1,9 @@
+PHA_FOLDER/
+[(nai0.pha,bgo0.pha), (nai1.pha,bgo1.pha)]
+BAK_FOLDER/
+[(nai0.bak,bgo0.bak), (nai1.bak,bgo1.bak)]
+RSP_FOLDER/
+[(nai0.rsp,bgo0.rsp), (nai1.rsp,bgo1.rsp)]
+(**-8.0 1000.0-**, **-200.0 40000.0-**) 
+atable{ TableModel.fits }
+results.txt

@@ -1,0 +1,3 @@
+ind        pgstat     dof        Tau        plus       minus      epsilon_e  plus       minus      LGRB       plus       minus      Gamma      plus       minus      z          norm       
+0          1732.8     241        1.00       0.00       0.00       1.00e-02   6.28e-06   0.00e+00   2.47       0.02       0.05       100.00     0.01       0.00       0.54       128.54     
+1          899.9      241        1.82       0.09       0.07       5.86e-02   1.78e-03   3.63e-03   1.00       0.00       0.00       106.87     1.15       1.17       0.54       128.54   

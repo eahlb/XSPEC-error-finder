@@ -1,0 +1,36 @@
+
+
+This is the angle between the different detectors and the source, 
+ as found in the rsp and rsp2 files. 
+angle for b0 = 158.9
+angle for b1 = 21.0
+angle for n0 = 83.3
+angle for n1 = 101.3
+angle for n2 = 117.0
+angle for n3 = 103.6
+angle for n4 = 123.1
+angle for n5 = 158.1
+angle for n6 = 56.3
+angle for n7 = 45.1
+angle for n8 = 61.3
+angle for n9 = 42.1
+angle for na = 56.7
+angle for nb = 22.0
+
+
+
+This is the angle between the different detectors and the source, 
+ as found in the rsp and rsp2 files. 
+angle for b1 = 21.0
+angle for n7 = 45.1
+angle for n9 = 42.1
+angle for nb = 22.0
+
+
+
+This is the angle between the different detectors and the source, 
+ as found in the rsp and rsp2 files. 
+angle for b1 = 21.0
+angle for n7 = 45.1
+angle for n9 = 42.1
+angle for nb = 22.0
