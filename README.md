@@ -1,7 +1,7 @@
 # XSPEC-error-finder
 A Python library utilizing a Monte Carlo method for determining the confidence interval of astrophysical model parameters
 
-#-- 1 INTRODUCTION --
+#1 INTRODUCTION 
 This library implements a Monte Carlo method for finding the confidence interval for fitted parameters using
 PyXSPEC. The libarary was developed during 2016 as part of my master thesis (http://urn.kb.se/resolve?urn=urn%3Anbn%3Ase%3Akth%3Adiva-191434)
 
@@ -15,7 +15,7 @@ This library can be placed at any location, but its internal
 structure must remain intact. Two examples showing how to use both parts of the library is included. These
 should be run with /final as the current working directory.
 
--- 2 Using ErrorFinder.py --
+#2 Using ErrorFinder.py 
 The ErrorFinder uses a Monte Carlo method to find the confidence interval of fitted parameters. Included
 here is one dummy example (run error.py) with the necessary files.
 
@@ -69,7 +69,7 @@ format. This is achieved by modifying the point class in ErrorFinder. An object 
 data for one time bin in the result file. This class must be modified in essentially every method to match the
 new format. Or, if one is more ambitious, it can be modified to handle an arbitrary model.
 
--- 3 Using ValidateModel.py --
+#3 Using ValidateModel.py 
 This method is discussed extensively in the thesis. This text is intended to complement those discussions with
 some specifications of the implementation. Included in this library is an example of how to run these tests.
 
@@ -89,7 +89,7 @@ GetTable(): Tables 6.2-4 8.1-2
 If you wish to implement your own data analysis, the result of a completed simulation is found by using
 ValidateModel.LoadData(ID).
 
--- 3.1 File structure --
+##-- 3.1 File structure --
 It is crucial that the internal file structure remains intact.
 
 -- 3.2 Creating settings files (.ds) --
