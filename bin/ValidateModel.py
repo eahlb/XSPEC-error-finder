@@ -327,6 +327,7 @@ class ValidateModel(Singleton):
         return (SNR, BackRate)
     
     def printProgress (self, iteration, total, prefix = '', suffix = '', decimals = 2, barLength = 70):
+        # Adopted from https://gist.github.com/vladignatyev/06860ec2040cb497f0f3
         """
         Call in a loop to create terminal progress bar
         @params:
