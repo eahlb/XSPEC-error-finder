@@ -3,6 +3,8 @@ A Python library utilizing a Monte Carlo method for determining the confidence i
 
 This is a plain text version of readme.pdf, for formating issues please refer to the pdf.
 
+Required Python packages: Numpy (www.numpy.org) and PyXSPEC (https://heasarc.gsfc.nasa.gov/xanadu/xspec/python/html/)
+
 #1 INTRODUCTION 
 This library implements a Monte Carlo method for finding the confidence interval for fitted parameters using
 PyXSPEC. The libarary was developed during 2016 as part of my master thesis (http://urn.kb.se/resolve?urn=urn%3Anbn%3Ase%3Akth%3Adiva-191434)
